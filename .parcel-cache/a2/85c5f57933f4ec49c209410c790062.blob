@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1,maximum-scale=1,
+    user-scalable=no, viewport-fit=cover">
+    <title>前航 - 前端导航网站</title>
+    <link rel="stylesheet" href="389a413342b08f796bdd6b9910f8cfca">
+</head>
+<body>
+
+    <header class="globalHeader">
+        <form class="search-form" method="get" action="https://www.baidu.com/s" target="_blank">
+        <input type="text" name="wd">
+        <button type="submit">搜索</button>
+    </form>
+    </header>
+    <main class="globalMain">
+        <ul class="siteList">
+            <!-- <li>
+                <a href='https://www.baidu.com'>
+                 <div class = 'site'>
+                    <div class="logo">A</div>
+                    <div class="link">acfun.cn</div>
+                </div>
+            </a>
+            </li>
+            <li>
+                <a href='https://www.bilibili.com/'>
+                <div class = 'site'>
+                    <div class="logo">
+                        <img src='./images/bilibili.jpeg'/>
+                    </div>
+                    <div class="link">bilibili.com</div>
+                </div>
+            </a>
+            </li>
+            <li>
+                <div class = 'site'>
+                    <div class="logo"></div>
+                    <div class="link">bilibili.com</div>
+                </div>
+            </li> -->
+            <li class="last">
+                <div class="addButton">
+                    <div class="icon-wrapper">
+                        <svg class="icon">
+                        <use xlink:href="#iconadd"></use>
+                    </svg>
+                </div>
+                    <div class="text">新增网站</div>
+                    </div>
+               
+            </li>
+        </ul>
+
+    </main>
+<script src="50244e153db90b45661b1232b1d199ee"></script>
+        <style data-parcel-key="040534691b83c7c8761f2cd3f5e1c94b">
+        .icon {
+            width: 1em; height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+        </style>
+    <script src="f2dc1c030e0605088c0eceae7223c15c"></script>
+    <script src="74a52285cd2a3e9a9fea006a00372a59"></script>
+    
+</body>
+</html>
