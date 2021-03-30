@@ -21,7 +21,7 @@ a{
 
 /*style*/
 body{
-    border:1px solid red;
+    /* border:1px solid red; */
     background-color: #eee;
 }
 .globalHeader{
@@ -179,5 +179,3 @@ border-radius: 4px;
 }
 
 
-
-/*# sourceMappingURL=index.0f2c8b60.css.map */
