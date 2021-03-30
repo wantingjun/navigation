@@ -1,0 +1,29 @@
+const hashMap =[
+    {logo:'A',logoType:'text',url:'https://www.baidu.com'},
+    {logo:'./images/bilibili.jpeg',logoType:'image',url:'https://www.bilibili.com/'}
+]
+const $siteList = $('.siteList')
+const $lastLi = $('.siteList').find('li.last')
+hashMap.forEach(node=>{
+    const $li=$(`<li>
+    <a href='${node.url}'>
+     <div class = 'site'>
+        <div class="logo">${node.logo[0]}</div>
+        <div class="link">${node.url}</div>
+    </div>
+</a>
+</li>`).insertBefore($lastLi)
+})
+
+$('.addButton')
+.on('click',()=>{
+    let url = window.prompt('请输入要添加的网址')
+    console.log(url)
+    if(url.indexOf('http')!==0){
+        //alert('请输入http开头的网址')
+        url = 'https://' +url
+
+    }
+ 
+
+})

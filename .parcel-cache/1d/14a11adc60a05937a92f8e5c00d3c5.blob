@@ -1,0 +1,5 @@
+$('.addButton')
+.on('click',()=>{
+    const url = window.prompt('请输入要添加的网址')
+    console.log(url)
+})
